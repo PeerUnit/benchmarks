@@ -1,0 +1,63 @@
+distributye (1)
+
+Test Case Verdict: 
+Step: 1. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 16 msec. Average: 0 msec.          Method: testOne
+Step: 2. Pass: 65. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 680 msec. Average: 0 msec.        Method: testTwo
+Step: 3. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 9 msec. Average: 0 msec.   Method: putData
+Step: 4. Pass: 65. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 456 msec. Average: 0 msec.        Method: getData
+Step: 5. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 7 msec. Average: 0 msec.   Method: putMoreData
+Step: 6. Pass: 65. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 455 msec. Average: 0 msec.        Method: getMoreData
+Step: 7. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 14 msec. Average: 0 msec.          Method: makeFail
+Step: 8. Pass: 0. Fails: 0. Erros: 0. Inconclusive: 65.  Time elapsed: 1466 msec. Average: 1001 msec.    Method: makeTimeout
+Step: 9. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 7 msec. Average: 5 msec.   Method: setAGlobal
+Step: 10. Pass: 65. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 509 msec. Average: 2 msec.       Method: getAGlobal
+Accumulated Time Elapsed: 3619
+
+------------------------------
+Distributed (64)
+Test Case Verdict: 
+Step: 1. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 18 msec. Average: 0 msec.          Method: testOne
+Step: 2. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 118 msec. Average: 0 msec.        Method: testTwo
+Step: 3. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 6 msec. Average: 0 msec.   Method: putData
+Step: 4. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 50 msec. Average: 0 msec.         Method: getData
+Step: 5. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 6 msec. Average: 0 msec.   Method: putMoreData
+Step: 6. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 50 msec. Average: 0 msec.         Method: getMoreData
+Step: 7. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 6 msec. Average: 0 msec.   Method: makeFail
+Step: 8. Pass: 0. Fails: 0. Erros: 0. Inconclusive: 64.  Time elapsed: 7058 msec. Average: 1001 msec.    Method: makeTimeout
+Step: 9. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 8 msec. Average: 6 msec.   Method: setAGlobal
+Step: 10. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 96 msec. Average: 3 msec.        Method: getAGlobal
+Accumulated Time Elapsed: 7416
+------------------------------
+
+------------------------------
+Distributed (32)
+Test Case Verdict: 
+Step: 1. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 16 msec. Average: 0 msec.          Method: testOne
+Step: 2. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 120 msec. Average: 0 msec.        Method: testTwo
+Step: 3. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 6 msec. Average: 0 msec.   Method: putData
+Step: 4. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 52 msec. Average: 0 msec.         Method: getData
+Step: 5. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 5 msec. Average: 0 msec.   Method: putMoreData
+Step: 6. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 51 msec. Average: 0 msec.         Method: getMoreData
+Step: 7. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 7 msec. Average: 0 msec.   Method: makeFail
+Step: 8. Pass: 0. Fails: 0. Erros: 0. Inconclusive: 64.  Time elapsed: 4056 msec. Average: 1001 msec.    Method: makeTimeout
+Step: 9. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 6 msec. Average: 4 msec.   Method: setAGlobal
+Step: 10. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 177 msec. Average: 7 msec.       Method: getAGlobal
+Accumulated Time Elapsed: 4496
+------------------------------
+
+
+------------------------------
+Centralized
+Test Case Verdict: 
+Step: 1. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 14 msec. Average: 0 msec.          Method: testOne
+Step: 2. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 98 msec. Average: 0 msec.         Method: testTwo
+Step: 3. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 4 msec. Average: 0 msec.   Method: putData
+Step: 4. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 59 msec. Average: 0 msec.         Method: getData
+Step: 5. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 3 msec. Average: 0 msec.   Method: putMoreData
+Step: 6. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 29 msec. Average: 0 msec.         Method: getMoreData
+Step: 7. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 3 msec. Average: 1 msec.   Method: makeFail
+Step: 8. Pass: 0. Fails: 0. Erros: 0. Inconclusive: 64.  Time elapsed: 1027 msec. Average: 1001 msec.    Method: makeTimeout
+Step: 9. Pass: 1. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 7 msec. Average: 4 msec.   Method: setAGlobal
+Step: 10. Pass: 64. Fails: 0. Erros: 0. Inconclusive: 0.  Time elapsed: 56 msec. Average: 4 msec.        Method: getAGlobal
+Accumulated Time Elapsed: 1300
+------------------------------

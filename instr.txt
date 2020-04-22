@@ -1,0 +1,50 @@
+Pour se connecter à la grille : 
+
+$ ssh <user>@access.toulouse.grid5000.fr
+
+(je le fais par l'accès de Toulouse car celui de Rennes ne fonctionne pas avec mon compte)
+
+Pour effectuer une réservation de 4 noeuds à partir du 01/12/2009 à 14h03 pendant 20 minutes :
+
+$ oarsub --reservation="2009-12-01 14:03:00" -l nodes=4, walltime=0:10:00 
+
+Cela donne un JOB_ID. Le Job sera en attente jusqu'à 14h03 puis dispo pendant 20 minutes. 
+
+Tu peux voir des infos sur le Job en faisant : 
+
+$ oarstat <JOB_ID>
+
+Pour supprimer la réservation : 
+
+$ oardel <JOB_ID>
+
+Une fois que le Job est actif, tu peux te connecter sur le noeud principal en faisant : 
+
+$ oarsub -C <JOB_ID>
+
+Pour amener des fichier sur ton 
+
+Suppression : 
+oardel JOB_ID
+
+Afficher les infos : 
+oarstat [-fj JOB_ID]
+
+Connexion à un noeud : 
+oarsub -C JOB_ID
+
+Copie de fichiers : 
+scp fichier u@h:p
+
+Le plus simple pour copier des fichiers sur ton "compte Grid5000", c'est d'utiliser sftp. 
+Connexion : 
+$ sftp <user>@access.toulouse.grid5000.fr 
+
+Dépot d'un fichier local : 
+$ put <file>
+
+Récupération d'un fichier : 
+$ get <file>
+
+Pour (dé)tarer : $ tar -cvf ... et $ tar -xvf ...
+
